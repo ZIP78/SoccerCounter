@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void displayForRed(int score) { //red
+    public void displayForRed(int score) {
         TextView scoreView = (TextView) findViewById(R.id.RedScore);
         scoreView.setText(String.valueOf(score));
 
